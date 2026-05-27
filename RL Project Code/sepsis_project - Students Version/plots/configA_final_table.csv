@@ -1,8 +1,7 @@
 Algorithm,Version,Episodes,Alpha,Survival %,Mean Return,Std Return,Gap to PI (pp)
-Random Baseline,—,—,—,69.6,0.5912,0.4569,9.2
+Random Baseline,—,—,—,70.3,0.6011,0.4521,8.5
 Policy Iteration,Optimal ceiling,—,—,78.8,0.7507,0.3951,0.0
-SARSA,Original,50k,0.3,70.7,0.6108,0.4344,8.1
-SARSA,Optimised,500k,0.1,79.2,0.702,0.4336,-0.4
-Q-Learning,Original,50k,0.3,75.1,0.6617,0.4274,3.7
-Q-Learning,Optimised,500k,0.1,75.9,0.664,0.4174,2.9
-Double Q-Learning,Best alpha,50k,0.1,70.5,0.6398,0.4442,8.3
+SARSA,Original,50k,0.3,71.4,0.6224,0.4285,7.4
+SARSA,Optimised,500k,0.2,76.7,0.663,0.429,2.1
+Q-Learning,Original,50k,0.3,73.1,0.6477,0.4362,5.7
+Q-Learning,Optimised,500k,0.1,74.9,0.6495,0.4224,3.9
